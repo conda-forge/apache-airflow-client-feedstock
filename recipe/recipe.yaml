@@ -1,5 +1,5 @@
 context:
-  version: "3.3.2"
+  version: "3.4.0"
 
 package:
   name: apache-airflow-client
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/apache-airflow-client/apache_airflow_client-${{ version }}.tar.gz
-  sha256: e9bb8de3717bb3a62a2efa4d31458b35683d775e91c5667f8697df7847baeb49
+  sha256: 9b77972c7c2d58be21cc9ff364f487804fd1cd5f377426cd48aecb39524ebc9e
 
 build:
   noarch: python
